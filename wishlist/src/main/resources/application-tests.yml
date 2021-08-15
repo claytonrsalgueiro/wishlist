@@ -1,0 +1,38 @@
+server:
+   port: 9661
+   servlet:
+      context-path: /app-back
+jwt:
+   issuer: issuer
+https-force: false
+
+logging:
+   level:
+#      root: DEBUG
+      org:
+         springframework:
+            web: DEBUG
+security:
+   basic:
+      enable: false            
+management:
+   security:
+      enabled: false 
+   health:
+      db:
+         enabled: false 
+spring:
+   security:
+      user:
+         name: test
+         password: first
+         roles: ADMIN
+   data:
+      mongodb: 
+         database: test
+         authentication-database: test
+#         uri: mongodb://mongoadmin:secret@localhost:27017/interviewTest?retryWrites=true&w=majority
+   liquibase:
+      enabled: false
+   main:
+      allow-bean-definition-overriding: true

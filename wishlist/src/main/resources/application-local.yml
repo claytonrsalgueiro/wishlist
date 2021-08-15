@@ -1,0 +1,31 @@
+server:
+   port: 9661
+   servlet:
+      context-path: /app-back
+jwt:
+   issuer: issuer
+https-force: false
+
+logging:
+   level:
+#      root: DEBUG
+      org:
+         springframework:
+            web: DEBUG
+spring:
+   security:
+      user:
+         name: plenny
+         password: first
+         roles: ADMIN
+   data:
+      mongodb: 
+         username: root
+         password: root
+         host: localhost
+         port: 27017
+         authentication-database: wishlist
+   liquibase:
+      enabled: false
+   main:
+      allow-bean-definition-overriding: true
