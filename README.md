@@ -1,5 +1,8 @@
-# wishlist
-Wishlist Test
+# Wishlist
+
+Este projeto foi realizado para tratar a problemática de uma WishList (lista de desejos) de um cliente para uma loja de produtos qualquer. Nela, é possível listar, adicionar ou remover produtos desta lista. Antes da utilização deste serviço, recomendamos a leitura das orientações abaixo, até mesmo para configuração e Startup deste serviço. 
+
+
 
 Requiriments:
 - JDK 11
