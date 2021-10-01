@@ -1,5 +1,5 @@
 # wishlist
-Wishlist Test - Magalu
+Wishlist Test
 
 Requiriments:
 - JDK 11
